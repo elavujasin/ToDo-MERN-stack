@@ -1,0 +1,75 @@
+.addexercise {
+  background-color: white;
+  border-color: lightseagreen;
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: dashed;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  color: lightseagreen;
+  font-size: 50px;
+}
+.Title {
+  font-size: 70px;
+  color: lightseagreen;
+  padding-left: 550px;
+}
+.titlecontainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.Logout {
+  font-size: 40px;
+  color: lightseagreen;
+  padding-left: 300px;
+  padding-top: 20px;
+}
+.Logout:hover,
+.Logout:link {
+  color: gray;
+  text-decoration: none;
+}
+.containera {
+  border-color: lightseagreen;
+  border-radius: 10px;
+  border-width: 4px;
+  border-style: dashed;
+  margin-bottom: 30px;
+  align-items: center;
+  padding-top: 5px;
+  width: 600px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .containera {
+    margin-top: 10px;
+    width: 300px;
+    height: 200px;
+  }
+  .addexercise {
+    margin-top: 20px;
+
+    font-size: 30px;
+  }
+  .Title {
+    padding-left: 0px;
+    font-size: 40px;
+  }
+  .Logout {
+    font-size: 20px;
+    padding-left: 0px;
+    padding-top: 0px;
+  }
+  .titlecontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

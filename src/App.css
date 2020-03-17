@@ -1,0 +1,24 @@
+.title {
+  text-align: center;
+  font-size: 70px;
+  color: lightseagreen;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+.background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.border {
+  width: 900px;
+  margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .border {
+    margin-bottom: 20px;
+  }
+}

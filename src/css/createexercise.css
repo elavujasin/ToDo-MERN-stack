@@ -1,0 +1,111 @@
+.container1 {
+  border-color: lightseagreen;
+  border-radius: 10px;
+  border-width: 4px;
+  border-style: dashed;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Title {
+  font-size: 70px;
+  color: lightseagreen;
+  padding-left: 550px;
+}
+.titlecontainer {
+  display: flex;
+  flex-direction: row;
+}
+.Logout {
+  font-size: 40px;
+  color: lightseagreen;
+  padding-left: 300px;
+  padding-top: 20px;
+}
+.Logout:hover,
+.Logout:link {
+  color: gray;
+  text-decoration: none;
+}
+.textboxcss {
+  width: 250px;
+
+  margin-bottom: 5%;
+  border-radius: 10px;
+  text-align: center;
+  margin-right: 100px;
+  background-color: whitesmoke;
+  border-color: lightgray;
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: dashed;
+}
+
+.submitcss {
+  background-color: white;
+  border-color: lightseagreen;
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: dashed;
+  margin-top: 10px;
+  margin-bottom: 30px;
+
+  color: lightseagreen;
+  font-size: 40px;
+  width: 220px;
+}
+
+.labela {
+  color: lightseagreen;
+  margin-left: 100px;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 600px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .submitcss {
+    width: 100px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  .labela {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .container1 {
+    width: 300px;
+  }
+  .textboxcss {
+    width: 200px;
+    margin-right: 0px;
+  }
+  .Title {
+    padding-left: 0px;
+    font-size: 40px;
+  }
+
+  .Logout {
+    font-size: 20px;
+    padding-left: 0px;
+    padding-top: 0px;
+  }
+  .titlecontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
